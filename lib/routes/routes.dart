@@ -1,5 +1,3 @@
-import 'dart:js';
-
 import 'package:auth_practice/screens/home_screen.dart';
 import 'package:auth_practice/screens/login_screen.dart';
 import 'package:auth_practice/screens/register_screen.dart';
@@ -13,9 +11,9 @@ class Routes {
   static const String splashScreen = '/splashScreen';
 
   static routesData(BuildContext context) => {
-        "/": (context) => SplashScreen(),
-        Routes.login: (context) => LoginScreen(),
-        Routes.register: (context) => RegisterScreen(),
-        Routes.home: (context) => HomeScreen(),
+        "/": (context) => const SplashScreen(),
+        Routes.login: (context) => const LoginScreen(),
+        Routes.register: (context) => const RegisterScreen(),
+        Routes.home: (context) => const HomeScreen(),
       };
 }
