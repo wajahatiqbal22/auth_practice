@@ -1,4 +1,4 @@
-package com.example.auth_practice
+package com.firebasePractice.codvets
 
 import io.flutter.embedding.android.FlutterActivity
 
